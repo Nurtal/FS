@@ -1,0 +1,638 @@
+<html>
+<head>
+<title>Features Extractions</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<center>
+<h1>Features Extraction<h1>
+	<h2>Panel 1<h2>
+	<img src="images/feature_selection_panel_1.png" alt="stuff" style="width:600px;height:450px;">
+		<table>
+			<tr bgcolor="#FFFFFF">
+				<th>Variables</th>
+				<th>meanImp</th>
+				<th>medianImp</th>
+				<th>minImp</th>
+				<th>maxImp</th>
+				<th>normHits</th>
+				<th>Decision</th>
+			</tr>
+			<tr bgcolor="#31B404">
+				<th>P1_CD14HIGHCD16NEG_CLASSICALMONOCYTES</th>
+				<th>5.68606183390857</th>
+				<th>5.84990946717868</th>
+				<th>1.66955637813578</th>
+				<th>8.61199048394307</th>
+				<th>0.909090909090909</th>
+				<th>Confirmed</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P1_CD14LOWCD16POS_NONCLASSICALMONOCYTES</th>
+				<th>-1.85224268841702</th>
+				<th>-1.80532959296284</th>
+				<th>-3.19543760668431</th>
+				<th>-0.83998061546734</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#31B404">
+				<th>P1_CD14POS_MONOCYTES</th>
+				<th>7.34382085198673</th>
+				<th>7.88896662738899</th>
+				<th>1.10563697878248</th>
+				<th>10.7969473235358</th>
+				<th>0.94949494949495</th>
+				<th>Confirmed</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P1_CD14POSCD16POS_INTERMEDIATEMONOCYTES</th>
+				<th>-0.307063753768862</th>
+				<th>-0.103085271358352</th>
+				<th>-1.94653593435333</th>
+				<th>0.385722217369434</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P1_CD15HIGHCD16NEG_EOSINOPHILS</th>
+				<th>0.984235454699467</th>
+				<th>0.96200596935705</th>
+				<th>-0.18277175447581</th>
+				<th>1.90533562641033</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#31B404">
+				<th>P1_CD15LOWCD16HIGH_NEUTROPHILS</th>
+				<th>6.24172258589924</th>
+				<th>6.69597580645481</th>
+				<th>0.678218311601907</th>
+				<th>9.71927318002979</th>
+				<th>0.868686868686869</th>
+				<th>Confirmed</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P1_CD15POSCD14LOW_LDGS</th>
+				<th>0.565412945394185</th>
+				<th>0.47162569139757</th>
+				<th>-1.53694916945296</th>
+				<th>3.25813152669838</th>
+				<th>0.0303030303030303</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P1_CD19POS_BCELLS</th>
+				<th>1.41778471636264</th>
+				<th>1.45176768440333</th>
+				<th>-0.301685007264562</th>
+				<th>2.81723997367775</th>
+				<th>0.0505050505050505</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P1_CD3NEGCD56POS_NKCELLS</th>
+				<th>0.272965483463319</th>
+				<th>0.583789300983012</th>
+				<th>-1.56242996348009</th>
+				<th>1.75810453727808</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P1_CD3POS_TCELLS</th>
+				<th>0.242644233961018</th>
+				<th>0.537849591812625</th>
+				<th>-2.70056270979835</th>
+				<th>1.95437806467078</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P1_CD3POSCD56POS_NKLIKETCELLS</th>
+				<th>-1.02286633254507</th>
+				<th>-1.31385046665779</th>
+				<th>-2.22557398236931</th>
+				<th>0.68847469516966</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#31B404">
+				<th>P1_CD4POS_TCELLS</th>
+				<th>3.82615863684116</th>
+				<th>3.80333606038923</th>
+				<th>-0.50909348548606</th>
+				<th>7.195137141247</th>
+				<th>0.686868686868687</th>
+				<th>Confirmed</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P1_CD56HIGH_CD16LOW</th>
+				<th>3.47792753953414</th>
+				<th>3.34428150473085</th>
+				<th>-0.26741199518103</th>
+				<th>7.41634904951449</th>
+				<th>0.646464646464647</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P1_CD56LOW_CD16HIGH</th>
+				<th>0.105443550083578</th>
+				<th>-0.0618639497855464</th>
+				<th>-1.37762703215216</th>
+				<th>1.08601338308346</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P1_CD8POS_TCELLS</th>
+				<th>1.28347751134533</th>
+				<th>1.2359821199949</th>
+				<th>-1.19836038549747</th>
+				<th>3.03953571211239</th>
+				<th>0.0202020202020202</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P1_LYMPHOCYTES</th>
+				<th>1.09655740266229</th>
+				<th>1.46531463838269</th>
+				<th>-1.61248370265746</th>
+				<th>2.59682827958231</th>
+				<th>0.0606060606060606</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#31B404">
+				<th>P1_MONOCYTES</th>
+				<th>6.78349406531772</th>
+				<th>7.35360025956827</th>
+				<th>1.81822109499755</th>
+				<th>10.4585683168307</th>
+				<th>0.909090909090909</th>
+				<th>Confirmed</th>
+			</tr>
+			<tr bgcolor="#31B404">
+				<th>P1_PMN</th>
+				<th>6.5391472553804</th>
+				<th>7.21217400436878</th>
+				<th>0.528578852398581</th>
+				<th>10.7396260644686</th>
+				<th>0.868686868686869</th>
+				<th>Confirmed</th>
+			</tr>
+		</table>
+	<h2>Panel 2<h2>
+	<img src="images/feature_selection_panel_2.png" alt="stuff" style="width:600px;height:450px;">
+		<table>
+			<tr bgcolor="#FFFFFF">
+				<th>Variables</th>
+				<th>meanImp</th>
+				<th>medianImp</th>
+				<th>minImp</th>
+				<th>maxImp</th>
+				<th>normHits</th>
+				<th>Decision</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P2_BASOPHILS</th>
+				<th>0.371858096527625</th>
+				<th>0.809633395180433</th>
+				<th>-2.342547814808</th>
+				<th>3.68056717642725</th>
+				<th>0.0731707317073171</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P2_MDC1</th>
+				<th>-0.166778164338164</th>
+				<th>-0.278432207673297</th>
+				<th>-2.36363433383301</th>
+				<th>2.17058815440063</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P2_MDC2</th>
+				<th>-0.0657450337765065</th>
+				<th>0.0888720459883188</th>
+				<th>-2.19915826361907</th>
+				<th>1.5092144285492</th>
+				<th>0.024390243902439</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P2_PDC</th>
+				<th>1.03482025935683</th>
+				<th>0.838591962322069</th>
+				<th>-3.59825707238456</th>
+				<th>5.29087307074515</th>
+				<th>0.268292682926829</th>
+				<th>Rejected</th>
+			</tr>
+		</table>
+	<h2>Panel 3<h2>
+	<img src="images/feature_selection_panel_3.png" alt="stuff" style="width:600px;height:450px;">
+		<table>
+			<tr bgcolor="#FFFFFF">
+				<th>Variables</th>
+				<th>meanImp</th>
+				<th>medianImp</th>
+				<th>minImp</th>
+				<th>maxImp</th>
+				<th>normHits</th>
+				<th>Decision</th>
+			</tr>
+			<tr bgcolor="#31B404">
+				<th>P3_CD45RANEGCD62LHIGHCD27POSCD4POS_CENTRAL_MEMORY_TCELLS</th>
+				<th>4.24211098187658</th>
+				<th>4.37954051023985</th>
+				<th>0.204056839272679</th>
+				<th>8.38835101902606</th>
+				<th>0.787878787878788</th>
+				<th>Confirmed</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P3_CD45RANEGCD62LHIGHCD27POSCD8POS_CENTRAL_MEMORYTCELLS</th>
+				<th>0.693327415300913</th>
+				<th>0.664967012512811</th>
+				<th>-1.79502546063461</th>
+				<th>3.45037657889069</th>
+				<th>0.161616161616162</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#31B404">
+				<th>P3_CD45RANEGCD62LLOWCD27NEGCD4POS_EFFECTOR_MEMORY_TCELLS</th>
+				<th>2.15887305574852</th>
+				<th>2.20673390042596</th>
+				<th>-1.8586545014491</th>
+				<th>7.85640027804419</th>
+				<th>0.454545454545455</th>
+				<th>Confirmed</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P3_CD45RANEGCD62LLOWCD27NEGCD8POS_EFFECTOR_MEMORY_TCELLS</th>
+				<th>2.61163755156341</th>
+				<th>2.63166405298944</th>
+				<th>-0.00730044154291261</th>
+				<th>5.75622119078129</th>
+				<th>0.585858585858586</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P3_CD45RAPOSCD62LHIGHCD27POSCD4POS_NAIVE_TCELLS</th>
+				<th>-1.15128206815886</th>
+				<th>-0.952784874292817</th>
+				<th>-2.94718031054011</th>
+				<th>-0.10089917229764</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P3_CD45RAPOSCD62LHIGHCD27POSCD8POS_NAIVE_TCELLS</th>
+				<th>0.902828307954885</th>
+				<th>0.807335092368398</th>
+				<th>-1.44430696498076</th>
+				<th>3.16552637960632</th>
+				<th>0.0505050505050505</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#31B404">
+				<th>P3_CD45RAPOSCD62LLOWCD27NEGCD4POS_EFFECTOR_T_CELLS</th>
+				<th>3.60862231336145</th>
+				<th>3.47953097571395</th>
+				<th>-0.60270504683339</th>
+				<th>7.85997815278792</th>
+				<th>0.707070707070707</th>
+				<th>Confirmed</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P3_CD45RAPOSCD62LLOWCD27NEGCD8POS_EFFECTOR_TCELLS</th>
+				<th>-0.378743795301948</th>
+				<th>-0.220480310445108</th>
+				<th>-2.02540104004119</th>
+				<th>1.36244482878432</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P3_CD8POS_CD38POS_ACTIVATED_TCELLS</th>
+				<th>0.0118640701231768</th>
+				<th>-0.250046429467442</th>
+				<th>-1.97249044857658</th>
+				<th>2.0706852482637</th>
+				<th>0.0202020202020202</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P3_CD8POS_CD57POS_CYTOTOXIC_TCELLS</th>
+				<th>-1.6667952884719</th>
+				<th>-2.04628131376565</th>
+				<th>-2.69592250036294</th>
+				<th>-0.0366357095543777</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+		</table>
+	<h2>Panel 4<h2>
+	<img src="images/feature_selection_panel_4.png" alt="stuff" style="width:600px;height:450px;">
+		<table>
+			<tr bgcolor="#FFFFFF">
+				<th>Variables</th>
+				<th>meanImp</th>
+				<th>medianImp</th>
+				<th>minImp</th>
+				<th>maxImp</th>
+				<th>normHits</th>
+				<th>Decision</th>
+			</tr>
+			<tr bgcolor="#31B404">
+				<th>P4_ABPOS_TCELLS</th>
+				<th>3.68570599435215</th>
+				<th>3.44871300041397</th>
+				<th>-0.0767163191386274</th>
+				<th>8.51641415044504</th>
+				<th>0.676767676767677</th>
+				<th>Confirmed</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P4_CD25HIGHCD127LOWCD4POS_REGULATORY_TCELLS</th>
+				<th>1.94458549625819</th>
+				<th>2.06556800729974</th>
+				<th>-1.58899245540776</th>
+				<th>5.97263199440479</th>
+				<th>0.292929292929293</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P4_CD25POS_ACTIVATED_CD4POS_TCELLS</th>
+				<th>-1.96368611320609</th>
+				<th>-1.83969123171619</th>
+				<th>-3.59855480487618</th>
+				<th>-0.103503543332538</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P4_CD25POS_ACTIVATED_CD8POS_TCELLS</th>
+				<th>2.65668631331188</th>
+				<th>2.415442414471</th>
+				<th>-0.493035737330825</th>
+				<th>7.61980284596859</th>
+				<th>0.454545454545455</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P4_CD69POS_ACTIVATED_CD4POS_TCELLS</th>
+				<th>0.702640592217874</th>
+				<th>0.635867388243961</th>
+				<th>-1.60718725874597</th>
+				<th>4.2797127184234</th>
+				<th>0.0101010101010101</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P4_CD69POS_ACTIVATED_CD8POS_TCELLS</th>
+				<th>-1.05007802627506</th>
+				<th>-1.11381185357538</th>
+				<th>-2.93210497201619</th>
+				<th>0.950401244699949</th>
+				<th>0.0202020202020202</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P4_GDPOS_TCELLS</th>
+				<th>-1.32498173700887</th>
+				<th>-0.89949354342833</th>
+				<th>-3.47186781324092</th>
+				<th>0.231054912564345</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+		</table>
+	<h2>Panel 5<h2>
+	<img src="images/feature_selection_panel_5.png" alt="stuff" style="width:600px;height:450px;">
+		<table>
+			<tr bgcolor="#FFFFFF">
+				<th>Variables</th>
+				<th>meanImp</th>
+				<th>medianImp</th>
+				<th>minImp</th>
+				<th>maxImp</th>
+				<th>normHits</th>
+				<th>Decision</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P5_CD24HIGHCD38HIGH_TRANSITIONAL_BCELLS</th>
+				<th>-0.641606312084513</th>
+				<th>-0.841835488684441</th>
+				<th>-1.74003697256463</th>
+				<th>0.648397798881422</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#31B404">
+				<th>P5_CD24POSCD38NEGMEMORY_BCELLS</th>
+				<th>6.70307400662555</th>
+				<th>6.684936161414</th>
+				<th>3.01353295866883</th>
+				<th>10.6368135354912</th>
+				<th>0.96969696969697</th>
+				<th>Confirmed</th>
+			</tr>
+			<tr bgcolor="#31B404">
+				<th>P5_CD24POSCD38POS_MATURE_BCELLS</th>
+				<th>4.38401531782452</th>
+				<th>4.36728104003425</th>
+				<th>0.537364421330875</th>
+				<th>8.11629834257134</th>
+				<th>0.838383838383838</th>
+				<th>Confirmed</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P5_CD27NEGIGDNEG_BCELLS</th>
+				<th>0.907741460235421</th>
+				<th>1.0811645795336</th>
+				<th>-1.38773160295061</th>
+				<th>3.04328268846361</th>
+				<th>0.0909090909090909</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P5_CD27NEGIGDPOS_NAIVE_BCELLS</th>
+				<th>1.942708834382</th>
+				<th>1.94852017025679</th>
+				<th>-0.902927256924475</th>
+				<th>5.61967039998444</th>
+				<th>0.404040404040404</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P5_CD27POSIGDPOS_NON_SWITCHED_MEMORY_BCELLS</th>
+				<th>0.620964642074133</th>
+				<th>0.71682360941298</th>
+				<th>-0.742890391365062</th>
+				<th>2.08144294426202</th>
+				<th>0.0101010101010101</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P5_CD38HIGHCD27HIGH_PLASMABLASTS</th>
+				<th>-0.931623212680474</th>
+				<th>-0.926850350033199</th>
+				<th>-2.34073803547463</th>
+				<th>0.732272333709082</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#31B404">
+				<th>P5_CD5POS_BCELLS</th>
+				<th>4.10691483086823</th>
+				<th>4.32728934707694</th>
+				<th>0.859640597148724</th>
+				<th>7.19868970211936</th>
+				<th>0.808080808080808</th>
+				<th>Confirmed</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P5_IGDNEGCD27POS</th>
+				<th>1.37567036902147</th>
+				<th>1.39424387927131</th>
+				<th>-1.86443308302778</th>
+				<th>3.98560842080221</th>
+				<th>0.222222222222222</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P5_IGDNEGCD38HIGH_BM3_4</th>
+				<th>-1.23441608041911</th>
+				<th>-1.27421001390296</th>
+				<th>-2.93553723022537</th>
+				<th>0.377380230529338</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P5_IGDNEGCD38NEG_BM5</th>
+				<th>3.08753288138198</th>
+				<th>3.11215500281396</th>
+				<th>-0.137298488077622</th>
+				<th>6.9568362148662</th>
+				<th>0.656565656565657</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P5_IGDNEGCD38POS_EBM5</th>
+				<th>-0.757871614679394</th>
+				<th>-0.94086615210249</th>
+				<th>-3.60382911318586</th>
+				<th>1.48598718299832</th>
+				<th>0.0101010101010101</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P5_IGDPOSCD38HIGH_BM2P</th>
+				<th>-0.718886499705349</th>
+				<th>-0.504731542660782</th>
+				<th>-2.45777023971612</th>
+				<th>0.289422332491229</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P5_IGDPOSCD38NEG_BM1</th>
+				<th>1.7510365848796</th>
+				<th>1.67052087939829</th>
+				<th>-1.07456004572056</th>
+				<th>4.7707880900362</th>
+				<th>0.363636363636364</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P5_IGDPOSCD38POS_BM2</th>
+				<th>2.46835013262122</th>
+				<th>2.40966159672191</th>
+				<th>-0.0128346729443553</th>
+				<th>5.14914443202624</th>
+				<th>0.454545454545455</th>
+				<th>Rejected</th>
+			</tr>
+		</table>
+	<h2>Panel 6<h2>
+	<img src="images/feature_selection_panel_6.png" alt="stuff" style="width:600px;height:450px;">
+		<table>
+			<tr bgcolor="#FFFFFF">
+				<th>Variables</th>
+				<th>meanImp</th>
+				<th>medianImp</th>
+				<th>minImp</th>
+				<th>maxImp</th>
+				<th>normHits</th>
+				<th>Decision</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P6_CD27POS_CD43POS_BCELLS</th>
+				<th>-1.05640803772708</th>
+				<th>-1.31849856951839</th>
+				<th>-3.74413074031228</th>
+				<th>0.515697680897385</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P6_CD3POS_CD20LOW_IN_TCELLS</th>
+				<th>-1.28635057288261</th>
+				<th>-1.36507784064405</th>
+				<th>-3.01859413736215</th>
+				<th>0.172670339603948</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P6_CD43POSCD69NEGCD27POSCD20POS_B1_BCELLS</th>
+				<th>3.45312666865832</th>
+				<th>3.37792531691511</th>
+				<th>-2.72517778886481</th>
+				<th>7.95621220093397</th>
+				<th>0.545454545454545</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P6_CD5NEG_CD11BNEG_BCELLS</th>
+				<th>0.641827241181595</th>
+				<th>0.659632773423851</th>
+				<th>-3.27229234424294</th>
+				<th>3.89949817698912</th>
+				<th>0.0404040404040404</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P6_CD5NEG_CD11BPOS_BCELLS</th>
+				<th>-0.26362489305281</th>
+				<th>-0.213267888224111</th>
+				<th>-2.08954138901059</th>
+				<th>1.87682255628367</th>
+				<th>0.0101010101010101</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P6_CD5POS_CD11BNEG_BCELLS</th>
+				<th>-2.15873355588932</th>
+				<th>-2.49986911720037</th>
+				<th>-3.79547951724701</th>
+				<th>0.169779642241975</th>
+				<th>0</th>
+				<th>Rejected</th>
+			</tr>
+			<tr bgcolor="#B40404">
+				<th>P6_CD5POS_CD11BPOS_BCELLS</th>
+				<th>-1.14995260496345</th>
+				<th>-1.33875701211893</th>
+				<th>-4.51579331752125</th>
+				<th>1.46843926438772</th>
+				<th>0.0101010101010101</th>
+				<th>Rejected</th>
+			</tr>
+		</table>
+</center>
+</body>
+</html>
